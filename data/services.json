@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Landing Page",
+    "description": "Satu halaman yang jelas untuk memperkenalkan usaha, produk, atau promo Anda, dan mengajak pengunjung langsung menghubungi Anda.",
+    "suitableFor": "Usaha yang baru mulai online, promo musiman, atau satu produk unggulan.",
+    "features": [
+      "Tampilan rapi di HP, tablet, dan desktop",
+      "Tombol kontak dan WhatsApp",
+      "SEO dasar agar mudah ditemukan di Google"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Company Profile",
+    "description": "Website beberapa halaman yang memperkenalkan usaha Anda secara profesional: siapa Anda, apa yang Anda tawarkan, dan bagaimana menghubungi Anda.",
+    "suitableFor": "Usaha yang sudah berjalan dan ingin tampil lebih meyakinkan di mata pelanggan.",
+    "features": [
+      "Beberapa halaman (beranda, layanan, tentang, kontak)",
+      "Informasi usaha yang tertata dan mudah dibaca",
+      "Tampilan rapi di semua ukuran layar"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Website dengan Fitur Khusus",
+    "description": "Untuk kebutuhan di luar paket standar, misalnya formulir pemesanan atau halaman admin sederhana. Kita bahas dulu apakah kebutuhannya sesuai dengan cakupan yang bisa saya kerjakan.",
+    "suitableFor": "Usaha dengan alur kerja khusus, misalnya pemesanan atau pendaftaran online.",
+    "features": [
+      "Rancangan tampilan sesuai kebutuhan",
+      "Fitur interaktif sesuai kesepakatan",
+      "Penyimpanan data (jika diperlukan dan disepakati)"
+    ]
+  }
+]
