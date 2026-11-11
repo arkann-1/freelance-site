@@ -1,12 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tes Tailwind</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div class="bg-black p-4 text-white">Tailwind jalan</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <header class="fixed inset-x-0 top-0 z-50 px-4 pt-4">
+      <div
+        class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-x-4 gap-y-2 rounded-2xl bg-white px-4 py-3 shadow-lg shadow-black/10 md:rounded-full md:px-6 md:py-2"
+      >
+        <a href="#" class="text-lg font-bold text-gray-900">AR<span class="text-indigo-600">DEV</span></a>
+        <nav aria-label="Navigasi utama" class="w-full md:w-auto">
+          <ul class="flex flex-wrap items-center gap-1 text-sm font-semibold">
+            <li>
+              <a
+                href="#layanan"
+                class="block rounded-full px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 md:px-4"
+                >Layanan</a
+              >
+            </li>
+            <li>
+              <a
+                href="#paket"
+                class="block rounded-full px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 md:px-4"
+                >Paket</a
+              >
+            </li>
+            <li>
+              <a
+                href="#portofolio"
+                class="block rounded-full px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 md:px-4"
+                >Portofolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="#faq"
+                class="block rounded-full px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 md:px-4"
+                >FAQ</a
+              >
+            </li>
+            <li>
+              <a
+                href="#kontak"
+                class="block rounded-full px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 md:px-4"
+                >Kontak</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="flex min-h-dvh items-center justify-center px-4 pt-32 pb-16"
+      >
+        <div class="mx-auto max-w-3xl text-center">
+          <h1
+            class="text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl"
+          >
+            Website bisnis yang
+            <span class="text-indigo-600">rapi di HP</span> dan siap menerima
+            pesan pelanggan.
+          </h1>
+          <p
+            class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-gray-600 md:text-lg"
+          >
+            Saya membantu UMKM lokal tampil profesional di internet: website
+            yang cepat dibuka, mudah dihubungi lewat WhatsApp, dan mudah
+            ditemukan di Google.
+          </p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
+            <a
+              href="#layanan"
+              class="rounded-full bg-indigo-600 px-6 py-3 text-center text-sm font-semibold text-white hover:bg-indigo-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >Lihat Layanan</a
+            >
+            <a
+              href="https://wa.me/628xxxxxxxxxx"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="rounded-full border border-gray-300 px-6 py-3 text-center text-sm font-semibold text-gray-800 hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+              >Chat via WhatsApp</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/app.js" defer></script>
+  </body>
 </html>
