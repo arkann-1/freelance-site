@@ -78,7 +78,7 @@ Untuk usaha kecil yang butuh kehadiran online sederhana.
 **Mulai dari Rp2.500.000** *(sementara)*
 
 Untuk usaha yang butuh informasi lebih lengkap dan tampil lebih meyakinkan.
-
+ 
 - Hingga 5 halaman
 - Tampilan rapi di HP
 - Tombol WhatsApp dan formulir kontak
