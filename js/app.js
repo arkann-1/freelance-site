@@ -38,4 +38,48 @@ async function loadServices() {
   }
 }
 
+const projectsList = document.querySelector("#projects-list");
+let allProjects = [];
+
+function createProjectCard(project) {
+  return `
+    <article class="flex flex-col rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+      <div class="flex items-center justify-between gap-2 text-xs font-semibold">
+        <span class="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700">${project.category}</span>
+        <span class="text-gray-500">${project.status}</span>
+      </div>
+      <h3 class="mt-4 text-xl font-bold text-gray-900">${project.title}</h3>
+      <p class="mt-3 text-gray-600">${project.description}</p>
+    </article>
+  `;
+}
+
+function renderProjects(projects) {
+  if (projects.length === 0) {
+    projectsList.innerHTML = `<p class="text-center text-gray-500 md:col-span-2 lg:col-span-3">Tidak ada proyek yang cocok.</p>`;
+    return;
+  }
+
+  projectsList.innerHTML = projects.map(createProjectCard).join("");
+}
+
+async function loadProjects() {
+  projectsList.innerHTML = `<p class="text-center text-gray-500 md:col-span-2 lg:col-span-3">Memuat proyek...</p>`;
+
+  try {
+    const response = await fetch("./data/projects.json");
+
+    if (!response.ok) {
+      throw new Error("Gagal memuat data proyek: " + response.status);
+    }
+
+    allProjects = await response.json();
+    renderProjects(allProjects);
+  } catch (error) {
+    console.error(error);
+    projectsList.innerHTML = `<p class="text-center text-red-600 md:col-span-2 lg:col-span-3">Proyek gagal dimuat. Coba muat ulang halaman.</p>`;
+  }
+}
+
 loadServices();
+loadProjects();
