@@ -4,6 +4,8 @@
     "title": "Daftar Tugas",
     "category": "Proyek Latihan",
     "description": "Aplikasi daftar tugas untuk melatih DOM dan event: tambah, hapus, dan tandai selesai.",
+    "tech": ["HTML", "Tailwind CSS", "JavaScript"],
+    "link": "https://github.com/arkann-1",
     "date": "2026-11-05",
     "status": "Rencana"
   },
@@ -12,6 +14,8 @@
     "title": "Katalog Produk dengan Filter",
     "category": "Proyek Latihan",
     "description": "Katalog produk dengan filter kategori, pencarian, dan pengurutan harga.",
+    "tech": ["HTML", "Tailwind CSS", "JavaScript"],
+    "link": "https://github.com/arkann-1",
     "date": "2026-11-18",
     "status": "Rencana"
   },
@@ -20,6 +24,8 @@
     "title": "Tampilan Data dari API",
     "category": "Proyek Latihan",
     "description": "Halaman yang mengambil data dari API publik dan menangani kondisi loading dan error.",
+    "tech": ["HTML", "Tailwind CSS", "JavaScript", "Fetch API"],
+    "link": "https://github.com/arkann-1",
     "date": "2026-11-12",
     "status": "Rencana"
   },
@@ -28,6 +34,8 @@
     "title": "Landing Page Kedai Kopi",
     "category": "Landing Page",
     "description": "Konsep landing page untuk kedai kopi lokal dengan tombol pesan lewat WhatsApp.",
+    "tech": ["HTML", "Tailwind CSS"],
+    "link": "https://github.com/arkann-1",
     "date": "2026-11-22",
     "status": "Konsep"
   },
@@ -36,6 +44,8 @@
     "title": "Landing Page Salon",
     "category": "Landing Page",
     "description": "Konsep landing page untuk salon dengan daftar layanan dan jam buka.",
+    "tech": ["HTML", "Tailwind CSS"],
+    "link": "https://github.com/arkann-1",
     "date": "2026-11-08",
     "status": "Konsep"
   },
@@ -44,6 +54,8 @@
     "title": "Sistem Booking",
     "category": "Aplikasi Web",
     "description": "Rencana aplikasi pemesanan jadwal dengan login admin dan pencegahan jadwal ganda.",
+    "tech": ["Next.js", "TypeScript", "PostgreSQL"],
+    "link": "",
     "date": "2026-11-25",
     "status": "Rencana"
   }

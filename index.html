@@ -212,9 +212,146 @@
           </p>
 
           <div
-            id="projects-list"
-            class="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3"
+            id="project-filters"
+            class="mt-8 flex flex-wrap justify-center gap-2"
           ></div>
+          <div
+            id="projects-list"
+            class="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3"
+          ></div>
+        </div>
+      </section>
+
+      <section id="faq" class="scroll-mt-24 px-4 py-16">
+        <div class="mx-auto max-w-3xl">
+          <h2
+            class="text-center text-4xl font-extrabold tracking-tight text-gray-900"
+          >
+            Pertanyaan yang <span class="text-indigo-600">Sering Diajukan</span>
+          </h2>
+
+          <p
+            class="mx-auto mt-6 max-w-2xl text-center text-base leading-relaxed text-gray-600 md:text-lg"
+          >
+            Belum menemukan jawabannya? Tanyakan langsung lewat WhatsApp.
+          </p>
+
+          <div
+            id="faq-list"
+            class="mt-8 divide-y divide-gray-100 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm"
+          >
+            <div>
+              <h3>
+                <button
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faq-1"
+                  class="flex w-full items-center justify-between gap-4 px-6 py-4 text-left text-base font-semibold text-gray-900 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-indigo-600"
+                >
+                  <span>Berapa lama website selesai?</span>
+                  <span aria-hidden="true" class="shrink-0 text-gray-500"
+                    >+</span
+                  >
+                </button>
+              </h3>
+              <div
+                id="faq-1"
+                hidden
+                class="px-6 pb-4 leading-relaxed text-gray-600"
+              >
+                Landing page biasanya 3-5 hari kerja, dan website beberapa
+                halaman 7-10 hari kerja, dihitung sejak materi (teks, foto,
+                logo) lengkap. Jadwal pastinya saya tulis sebelum pengerjaan
+                dimulai.
+              </div>
+            </div>
+            <div>
+              <h3>
+                <button
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faq-2"
+                  class="flex w-full items-center justify-between gap-4 px-6 py-4 text-left text-base font-semibold text-gray-900 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-indigo-600"
+                >
+                  <span>Apakah harga sudah termasuk domain dan hosting?</span>
+                  <span aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-2" hidden class="px-6 pb-4 text-gray-600">
+                Belum. Domain dan hosting dibayar langsung oleh Anda ke
+                penyedia, supaya Anda memegang kepemilikannya. Saya bantu
+                memilih dan memasangnya.
+              </div>
+            </div>
+            <div>
+              <h3>
+                <button
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faq-3"
+                  class="flex w-full items-center justify-between gap-4 px-6 py-4 text-left text-base font-semibold text-gray-900 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-indigo-600"
+                >
+                  <span>Berapa kali saya boleh minta revisi?</span>
+                  <span aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-3" hidden class="px-6 pb-4 text-gray-600">
+                Paket Dasar 2 kali, Profesional 3 kali. Revisi tambahan bisa
+                dibicarakan. Batas revisi tertulis sebelum pengerjaan.
+              </div>
+            </div>
+            <div>
+              <h3>
+                <button
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faq-4"
+                  class="flex w-full items-center justify-between gap-4 px-6 py-4 text-left text-base font-semibold text-gray-900 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-indigo-600"
+                >
+                  <span>Apakah website tampil baik di HP?</span>
+                  <span aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-4" hidden class="px-6 pb-4 text-gray-600">
+                Ya. Semua website dirancang untuk HP terlebih dahulu, lalu
+                disesuaikan untuk tablet dan desktop.
+              </div>
+            </div>
+            <div>
+              <h3>
+                <button
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faq-5"
+                  class="flex w-full items-center justify-between gap-4 px-6 py-4 text-left text-base font-semibold text-gray-900 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-indigo-600"
+                >
+                  <span>Bagaimana pembayarannya?</span>
+                  <span aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-5" hidden class="px-6 pb-4 text-gray-600">
+                DP 50% di awal, pelunasan setelah website selesai dan sebelum
+                diserahkan. Rincian ditulis di kesepakatan sebelum mulai.
+              </div>
+            </div>
+            <div>
+              <h3>
+                <button
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faq-6"
+                  class="flex w-full items-center justify-between gap-4 px-6 py-4 text-left text-base font-semibold text-gray-900 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-indigo-600"
+                >
+                  <span>Apakah website bisa dikembangkan lagi?</span>
+                  <span aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-6" hidden class="px-6 pb-4 text-gray-600">
+                Bisa. Penambahan halaman atau fitur dihitung terpisah sesuai
+                kebutuhan.
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
